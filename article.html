@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La bibliothèque de Lyndia</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="styleartcle.css">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top ">
+            <div class="collapse navbar-collapse">
+                <a href="index.html" class="nav-item"><img src="./media/logo.png" alt="logo"></a>
+                <a href="article.html" class="nav-item nav-link">Mes articles</a>
+                <a href="horsserie.html" class="nav-item nav-link">Hors-série</a>
+                <a href="contact.html" class="nav-item nav-link">Me contacter</a>
+                    
+                </div>
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <span class="input-group-text border-0" id="search-addon">
+                      <i class="fas fa-search"></i>
+                    </span>
+            </div>
+        </nav>
+
+            <h1>La bibliothèque <br> de Lyndia</h1>
+     </header>
+     <main>
+        <div class="container">
+            <h2>Mes articles</h2>
+            <div class="fantasy">
+                <div class="leftpart col-sm-4">
+                    <img src="./media/fantasy.jpg" alt="fantasy">
+                </div>
+                <div class="rightpart col-sm-8">
+                    <h3>Fantasy</h3>
+                    <p>De la Terre du Milieu à la République d'Itreya en passant par le royaume d'Hélios. Retrouvez ici, mes articles sur mes lectures fantasy! </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="transition">
+            <img src="./media/transistion.png" alt="Livres">
+        </div>
+
+        <div id="newsletter">
+            <h4>Recevez tous les nouveaux articles, en vous inscrivant à notre newsletter!</h4>
+            <div class="input-group">
+                <input type="email" class="form-control" placeholder="entrez votre email...">
+                <div class="input-group-append">
+                    <button class="btn">Soumettre</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <img src="./media/logo.png" alt="Logo">
+        <p>Lyndia 2023 ©</p>
+    </footer>
+
+     </main>
+    
+     <script src="jquery.min.js"></script>
+     <script src="script.js"></script>
+
+    
     
 </body>
 </html>
