@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliothèque de Lyndia</title>
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm fixed-top ">
+            <div class="collapse navbar-collapse">
+                <a href="#" class="nav-item"><img src=./media/logo.png" alt="logo"></a>
+                <a href="article.html" class="nav-item nav-link">Mes articles</a>
+                <a href="horsserie.html" class="nav-item nav-link">Hors-série</a>
+                <a href="contact.html" class="nav-item nav-link">Me contacter</a>
+                
+            </div>
+            <div class="input-group rounded">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+        </nav>
+
+        <h1>La bibliothèque <br> de Lyndia</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9" id="leftpart">
+                    <h2>Parcourez la Bibliothèque</h2>
+                    <div class="container">
+                        <div class="row elements">
+                            <div class="col-sm-4">
+                                <img src="./media/choissisez.jpg" alt="choisissez">
+                            </div>
+                            <div class="col-sm-8">
+                                <h3>Choisissez</h3>
+                                <p>Il existe de nombreux livres, afin de se motiver à lire encore plus et découvrir de nouveaux auteurs choisissez parmis ma liste de lecture commune et avonçons ensemble dans nos objectifs du mois.</p>
+                                <div class="button">
+                                    <button>Parcourir la liste</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row elements">
+                            <div class="col-sm-4">
+                                <img src="./media/Lisez.jpg" alt="Lisez">
+                            </div>
+                            <div class="col-sm-8">
+                                <h3>Lisez</h3>
+                                <p>Découvrez jour après jour mon avancer sur le challenge de lecture commune et partageons ensemble (mais sans spoil) nos impressions sur les derniers chapitres lus!</p>
+                                <div class="button">
+                                    <button>Accèder à toutes les alertes lecture commune</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row elements">
+                            <div class="col-sm-4">
+                                <img src="./media/commentez.jpg" alt="Commentez">
+                            </div>
+                            <div class="col-sm-8">
+                                <h3>Commentez</h3>
+                                <p>Donnez votre avis sur le livre un fois la lecture commune finie et retrouver mon article complet sur celui-ci !</p>
+                                <div class="button">
+                                    <button>Accèder aux avis des lecteurs</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" id="rightpart">
+                    <h2>Bric à braque</h2>
+                    <div class="tips" style="background: url(./media/jailu.jpg) no-repeat 50% 50%;">
+                        <h4>Parcourer mes lectures</h4>
+                    </div>
+
+                    <div class="tips" style="background: url(./media/coupdecoeur.jpg) no-repeat 50% 50%;">
+                        <h4>Mes coups de coeur</h4>
+                    </div>
+                
+
+                    <div class="tips" style="background: url(./media/PaL.jpg) no-repeat 50% 50%;">
+                        <h4>Ma pile à lire</h4>
+                    </div>
+                
+
+                    <div class="tips" style="background: url(./media/Liste\ d\'envie.jpg) no-repeat 50% 50%;">
+                        <h4>Voir ma liste d'envie </h4>
+                    </div>    
+            </div>
+            <div id="transition">
+                <img src="./media/transistion.png" alt="Livres">
+            </div>
+
+            <div id="newsletter">
+                <h4>Recevez tous les nouveaux articles, en vous inscrivant à notre newsletter!</h4>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="entrez votre email...">
+                    <div class="input-group-append">
+                        <button class="btn">Soumettre</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <img src="./media/logo.png" alt="Logo">
+            <p>Lyndia 2023 ©</p>
+        </footer>
+
+
+    </main>
+
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
