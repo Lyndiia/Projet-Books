@@ -1,14 +1,12 @@
-$(document).ready(function() {
-    $(".navbar").hide();
+const nav = document.querySelector("nav");
+let lastScroll = 0;
 
-    $(function(){
-        $(window).scroll(function (){
-            if($(this).scrollTop() > 140) {
-                $('.navbar').fadeIn();
+window.addEventListener("scroll", () => {
+  if (window.scrollY < lastScroll) {
+    nav.style.top = 0;
+  } else {
+    nav.style.top = "-70px";
+  }
 
-            } else {
-                $('.navbar').fadeOut();
-            }
-        });
-    });
+  lastScroll = window.scrollY;
 });
